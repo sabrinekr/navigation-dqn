@@ -32,7 +32,7 @@ The task is episodic, and in order to solve the environment, your agent must get
 
     (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux_NoVis.zip) to obtain the environment.
 
-2. Place the file in the DRLND GitHub repository, in the `p1_navigation/` folder, and unzip (or decompress) the file. 
+2. Place the file in the root folder, and unzip (or decompress) the file. 
 
 ### Train the agent
 In order to train our agent we have to:
@@ -41,4 +41,6 @@ In order to train our agent we have to:
 2. Evaluate state and action space
 3. Train the agent using Double Deep Q-Networks (DDQN). 
 4. Iterate until agent reaches the score of 13.0
+
+You can train the agent following the instructions in the notebook Navigation.ipynb.
 
